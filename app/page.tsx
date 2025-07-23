@@ -65,7 +65,7 @@ export default function Home() {
       setActiveService((prev) =>
         prev === null ? 1 : (prev + 1) % services.length
       );
-    }, 8000);
+    }, 20000);
 
     return () => clearInterval(interval);
   }, [isMobile]);
@@ -90,7 +90,7 @@ export default function Home() {
             key={bgImage}
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0}}
             className="absolute inset-0"
           >
             <Image
@@ -138,7 +138,7 @@ export default function Home() {
 
                   {activeService === index && (
                     <motion.div
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={{ opacity: 1, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.1 }}
                       className="space-y-4"
