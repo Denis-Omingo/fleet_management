@@ -142,7 +142,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  FleetTech Kenya was founded in 2020 with a vision to revolutionize how transport 
+                  FleetTech Kenya was founded in 2025 with a vision to revolutionize how transport 
                   operators manage their fleets across Kenya. Starting from our headquarters in 
                   Westlands, Nairobi, we identified the unique challenges facing the Kenyan 
                   transport industry.
